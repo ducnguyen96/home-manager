@@ -77,7 +77,8 @@
     ./wms/hyprland
 
     # status-bars
-    ./system-panels/eww-hyprland
+    # ./system-panels/eww-hyprland
+    ./system-panels/waybar
 
     # command-lines
     ./command-lines/fzf.nix
