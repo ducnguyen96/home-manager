@@ -73,16 +73,15 @@
   };
 
   imports = [
-    ./desktop/hyprland.nix
+    ./wm/hyprland/hyprland.nix
 
     ./optional/pkgs
-
     ./optional/programs/kitty.nix
     ./optional/programs/rofi.nix
     ./optional/programs/vscode.nix
     ./optional/programs/git.nix
     ./optional/programs/fzf.nix
-
+    
     ./shell/zsh.nix
     ./shell/starship.nix
   ];
