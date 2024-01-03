@@ -16,6 +16,11 @@
     enableNvidiaPatches = false;
   };
 
+  home.packages = with pkgs; [ 
+    # dependecies
+    hyprpaper
+  ];
+
   home.file."/home/${config.home.username}/.config/hypr" = {
     source = "/home/${config.home.username}/.config/home-manager/wms/hyprland/hypr";
   };
