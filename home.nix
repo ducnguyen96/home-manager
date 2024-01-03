@@ -88,7 +88,7 @@
     ./editors/vscode.nix
 
     # terminals
-    ./terminals/kitty.nix
+    ./terminals/kitty
 
     # launchers
     ./launchers/wofi.nix
