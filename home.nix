@@ -74,7 +74,7 @@
 
   imports = [
     # wms
-    ./wms/hyprland/hyprland.nix
+    ./wms/hyprland
 
     # command-lines
     ./command-lines/fzf.nix
