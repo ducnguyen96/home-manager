@@ -77,7 +77,7 @@
 
     ./optional/pkgs
     ./optional/programs/kitty.nix
-    ./optional/programs/rofi.nix
+    ./optional/programs/wofi.nix
     ./optional/programs/vscode.nix
     ./optional/programs/git.nix
     ./optional/programs/fzf.nix
