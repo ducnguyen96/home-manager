@@ -1,9 +1,9 @@
 { lib, pkgs, ... }:
 
 {
-  home.packages = lib.attrValues {
-    inherit
-    (pkgs)
-    pulsemixer;
-  };
+  home.packages = with pkgs; [
+    pulsemixer
+    neofetch
+    htop
+  ];
 }
