@@ -34,6 +34,10 @@ in
       "[json]".editor.defaultFormatter = "esbenp.prettier-vscode";
       "[jsonc]".editor.defaultFormatter = "rvest.vs-code-prettier-eslint";
       "[nix]".editor.defaultFormatter = "jnoortheen.nix-ide";
+
+      terminal.integrated = {
+        defaultProfile.linux = "zsh";
+      };
     };
   };
 }
