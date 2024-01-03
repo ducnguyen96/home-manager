@@ -11,7 +11,7 @@
 }
 
 window#waybar {
-  background: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0);
 }
 
 window#waybar.hidden {
@@ -43,7 +43,6 @@ tooltip {
   background-color: #373737;
   border: 0px solid #373737;
   border-radius: 10px;
-
 }
 
 #workspaces button {
@@ -71,6 +70,9 @@ tooltip {
   border-radius: 15px;
 }
 
+#clock,
+#tray,
+#custom-power,
 #workspaces {
   color: #7aa2f7;
   padding: 0px 10px;
