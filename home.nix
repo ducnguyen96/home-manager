@@ -91,7 +91,7 @@
     ./terminals/kitty
 
     # launchers
-    ./launchers/wofi.nix
+    ./launchers/wofi
 
     # shells
     ./shells/zsh.nix
