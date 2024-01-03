@@ -76,6 +76,9 @@
     # wms
     ./wms/hyprland
 
+    # status-bars
+    ./system-panels/eww-hyprland
+
     # command-lines
     ./command-lines/fzf.nix
     ./command-lines/git.nix
