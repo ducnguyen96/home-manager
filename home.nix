@@ -73,17 +73,30 @@
   };
 
   imports = [
-    ./wm/hyprland/hyprland.nix
+    # wms
+    ./wms/hyprland/hyprland.nix
 
-    ./optional/pkgs
-    ./optional/programs/kitty.nix
-    ./optional/programs/wofi.nix
-    ./optional/programs/vscode.nix
-    ./optional/programs/git.nix
-    ./optional/programs/fzf.nix
-    
-    ./shell/zsh.nix
-    ./shell/starship.nix
+    # command-lines
+    ./command-lines/fzf.nix
+    ./command-lines/git.nix
+
+    # editors
+    ./editors/vscode.nix
+
+    # terminals
+    ./terminals/kitty.nix
+
+    # launchers
+    ./launchers/wofi.nix
+
+    # shells
+    ./shells/zsh.nix
+
+    # prompts
+    ./prompts/starship.nix
+
+    # utils
+    ./utils/pkgs.nix
   ];
 
   # Let Home Manager install and manage itself.

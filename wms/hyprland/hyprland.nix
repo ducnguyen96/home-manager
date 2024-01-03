@@ -17,6 +17,6 @@
   };
 
   home.file."/home/${config.home.username}/.config/hypr" = {
-    source = "/home/${config.home.username}/.config/home-manager/wm/hyprland/hypr";
+    source = "/home/${config.home.username}/.config/home-manager/wms/hyprland/hypr";
   };
 }
