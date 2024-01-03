@@ -38,6 +38,8 @@ in
       terminal.integrated = {
         defaultProfile.linux = "zsh";
       };
+
+      editor.formatOnSave =  true;
     };
   };
 }
