@@ -99,8 +99,8 @@
     # prompts
     ./prompts/starship.nix
 
-    # git
-    ./git
+    # browsers
+    ./browsers/firefox.nix
 
     # utils
     ./utils/pkgs.nix
