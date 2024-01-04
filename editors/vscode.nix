@@ -21,6 +21,7 @@ in
       eamodio.gitlens
       esbenp.prettier-vscode
       github.copilot
+      kamadorueda.alejandra
     ] ++ marketplace-extensions;
 
     userSettings = {
@@ -33,7 +34,7 @@ in
       "[javascript]".editor.defaultFormatter = "rvest.vs-code-prettier-eslint";
       "[json]".editor.defaultFormatter = "esbenp.prettier-vscode";
       "[jsonc]".editor.defaultFormatter = "rvest.vs-code-prettier-eslint";
-      "[nix]".editor.defaultFormatter = "jnoortheen.nix-ide";
+      "[nix]".editor.defaultFormatter = "kamadorueda.alejandra";
 
       terminal.integrated = {
         defaultProfile.linux = "zsh";
