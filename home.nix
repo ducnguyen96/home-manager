@@ -99,6 +99,9 @@
     # prompts
     ./prompts/starship.nix
 
+    # git
+    ./git
+
     # utils
     ./utils/pkgs.nix
   ];
