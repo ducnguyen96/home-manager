@@ -1,4 +1,4 @@
-If you are using NixOS then here are some requirements:
+## How to:
 
 1. If you are using hyprland then it's require to enable `xserver` and `polkit` to make it possible to work with xwayland option.
 
@@ -30,4 +30,11 @@ users.users.duc = {
 fonts.packages = with pkgs; [
   (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" "JetBrainsMono" ]; })
 ];
+```
+
+4. Setting up Xorg system-wide but without a Display Manager
+
+`/etc/nixos/configuration.nix`
+```nix
+services.xserver.displayManager.startx.enable = true;
 ```
