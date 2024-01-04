@@ -1,6 +1,8 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   wayland.windowManager.hyprland = {
     # Whether to enable Hyprland wayland compositor
     enable = true;
@@ -16,7 +18,7 @@
     enableNvidiaPatches = false;
   };
 
-  home.packages = with pkgs; [ 
+  home.packages = with pkgs; [
     # dependecies
     hyprpaper
   ];
